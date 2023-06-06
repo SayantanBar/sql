@@ -31,3 +31,5 @@ SELECT TO_CHAR(Delivery_date,'MON') as "Month" , TO_CHAR(Delivery_date,'Day') as
 select TO_CHAR(Order_date,'DD-Month-YY') as " Time Table " from sales_order;
 
 select SYSDATE + 15 from dual;
+
+
