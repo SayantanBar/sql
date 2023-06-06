@@ -1,0 +1,10 @@
+select count(distinct order_no) from sales_order_details;
+select avg(sell_price) "sale price" from product_master;
+select count(product_no) from product_master where sell_price>=1500;
+select max(sell_price) "max_price",min(sell_price) "min_price" from product_master;
+create table emp
+as select * from scott.emp;
+create table dept
+as select * from scott.dept;
+create table salgrade
+as select * from scott.salgrade;
